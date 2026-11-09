@@ -19,6 +19,7 @@ html {
     --font: "Montserrat";
     --weight: 300;
     --height: 1.1667;
+    --radius: 20px;
 }
 
 body {
@@ -55,4 +56,16 @@ h3{
     font-size: 1.75rem;
     line-height: var(--height);
     font-weight: var(--weight);
+}
+
+.reserve{
+color: var(--white);
+background-color: var(--vegan);
+border-radius: var(--radius);
+}
+
+.order{
+color: var(--white);
+background-color: var(--catalina);
+border-radius: var(--radius);
 }
