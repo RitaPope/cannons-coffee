@@ -41,7 +41,7 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	gap: 0.5rem;
-	margin-top; 2rem;
+	margin: 0 auto;
 	text-align: center;
 	justify-content: center;
 	padding-bottom: 1rem;
@@ -213,6 +213,7 @@ footer {
 	}
 	.hero-card {
 		padding: 1rem;
+        height: 350px;
 	}
 	h2 {
 		font-size: 40px;
@@ -232,12 +233,13 @@ footer {
 @media (min-width: 1000px) {
 	.wrapper,
 	.wrapper2 {
-		margin: -3rem 5rem;
+		margin: -2rem 5rem;
 	}
 	header {
 		flex-wrap: nowrap;
 		align-items: baseline;
 		justify-content: space-around;
+        margin-top: 2rem;
 	}
 	h1 {
 		font-size: 36px;
@@ -261,6 +263,7 @@ footer {
 	}
 	.hero-card {
 		margin-top: 2rem;
+        height: 395px;
 	}
 	p,
 	.hero-card {
