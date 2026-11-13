@@ -273,9 +273,14 @@ footer {
     h4{
         font-size: 22px;
     }
-	
+	nav ul{
+        gap: 0rem;
+        
+    }
 	nav a {
 		font-size: 10px;
+        
+    
 	}
 	.photo {
 		height: 419px;
