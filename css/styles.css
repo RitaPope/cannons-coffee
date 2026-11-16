@@ -177,6 +177,7 @@ footer {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
+	margin-left: .5rem;
 }
 
 .footer {
