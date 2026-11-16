@@ -175,9 +175,12 @@ p {
 
 footer {
 	display: flex;
+flex-direction: column;
+align-items: center;
+	/* display: flex;
 	flex-flow: wrap;
-	justify-content: center;
-	margin-left: .5rem;
+	justify-content: center; */
+	margin-left: .5rem; 
 }
 
 .footer {
